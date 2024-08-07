@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .post-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-page h1 {
+    margin-bottom: 20px;
+  }
+  
+  .post-page input[type="text"],
+  .post-page textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .post-page input[type="file"] {
+    margin-bottom: 20px;
+  }
+  
+  .post-page button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .post-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  .uploaded-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .og-image {
+    width: 1200px;
+    height: 630px;
+    position: relative;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .og-image h1 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+  }
+  
+  .og-image p {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  
+  .og-image-content {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensure the image fits within the container without cropping */
+  }
+  
+  .branding {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
